@@ -34,6 +34,14 @@
     font-weight: bold;
     color:#181818 ;
 }
+.all-description{
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+.text-center{
+    text-align: center;
+}
 .secondary-bg{
     background-color: #FFF8F3 ;
 }
@@ -94,12 +102,16 @@ main{
     margin: 0 auto;
     
 }
+main section{
+    /* margin: 0px 130px; */
+margin-top: 130px;
+}
 /* abput */
 .about-me {
     border-radius: 10px;
     padding:130px 156px ;
     text-align: center;
-    margin-top: 130px;
+    
 }
 .about-items{
     display: flex;
@@ -117,4 +129,14 @@ main{
     line-height: 30px;
     color:#757575 ;
 }
-
+/* skilll */
+.skill-section > .skill-container{
+    display: flex;
+    gap: 40px;
+    
+}
+.skill{
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow:  0px 6px 50px 0px rgba( 0, 0, 0, 0.06);
+}
