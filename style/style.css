@@ -56,7 +56,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content:space-between ;
-margin: 50px 200px;
+    margin:0 200px 50px  200px;
 }
 .nav-title{
     font-weight: 800;
@@ -175,6 +175,9 @@ footer{
 }
 .footer-column{
     width: 50%;
+}
+.icon img{
+    margin: 5px 10px;
 }
 footer input[type="text"], footer input[type="email"]{
     height: 64px;
